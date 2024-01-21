@@ -1,0 +1,30 @@
+.span {
+    background-color: rgba(26, 106, 180, 0.6);
+    border-radius: 3px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid rgb(248, 247, 244);
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.dataName {
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.data {
+    padding-left: 2%;
+}
+
+a {
+    color: white;
+}

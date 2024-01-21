@@ -1,0 +1,28 @@
+.field {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 11rem;
+    width: 11rem;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    font-size: large;
+    border-radius : 5px;
+    border: 1px solid rgb(141, 141, 211);
+    font-size: 4.7rem;
+}
+
+.shadow {
+    /*background-color: rgb(126, 122, 122, 0.3);*/
+    background-color: rgba(49, 68, 179, 0.301);
+}
+
+
+
+
+        
+.grow:hover { 
+        transition: all .2s ease-in-out;
+        transform: scale(1.05);
+        box-shadow: 4px 5px 5px rgb(141, 141, 211);
+}

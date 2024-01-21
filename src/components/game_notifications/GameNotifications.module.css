@@ -1,0 +1,53 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    height: 33rem;
+    width: 75rem;
+    border-radius: 10px;
+    /*background-color: rgb(13, 56, 59, 0.733);*/
+    background-color: rgba(8, 8, 8, 0.533);
+    box-shadow: 3px 3px 3px rgb(228, 224, 224);
+    font-size: 1em;
+    cursor: default;
+}
+#yoda {
+    width: 25%;
+    background-image: url('../../yoda.png');
+    background-size:cover;
+    
+}
+#msg {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+#anakin {
+    width: 25%;
+    background-image: url('../../anakin.png');
+    background-size: cover;
+}
+
+.dialogue {
+    
+    height: 20%;
+    width: 0;
+    display:flex;
+    color: transparent;
+    transition-property: width, color;
+    transition-duration: 1s, 2s;
+    transition-delay: 0s, 1s;
+}
+
+.dialogueYoda {
+      color: black;
+      width: 100%;
+}
+
+.dialogueAnakin {
+    margin-right: 0px;
+    width: 100%;
+}
+
+

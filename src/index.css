@@ -1,0 +1,42 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+
+
+
+#root {
+    font-family: 'Lemon', serif;
+    background-image: url('./wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1366px) and (min-width:1024px){
+    
+    html { 
+       font-size: 8px;
+   }
+
+   
+}
+@media only screen and (max-width: 1023px) and (min-width:414px){
+    
+    
+    html { 
+        font-size: 7px;
+    }
+   
+}
+
+
+
+
+

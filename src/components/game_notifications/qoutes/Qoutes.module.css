@@ -1,0 +1,54 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  align-items: center;
+  
+ 
+}
+
+.qoutesYoda {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: transparent;
+  font-size: 0.3em;
+  width: 25%;
+  height:13%;
+  transition: all 5s;
+  transform-origin: top left;
+  
+}
+
+.qoutesVader {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: transparent;
+  font-size: 0.3em;
+  width: 25%;
+  height:13%;
+  text-align: right;
+  transition: all 5s;
+  transform-origin: top right;
+}
+
+.qoutesYoda.transition1 {
+  
+  transform: scale(4);
+  color: rgb(223, 184, 59)
+    
+}
+
+.qoutesVader.transition1 {
+  transform: scale(4);
+  color: rgb(88, 231, 136);
+}
+
+.qoutes.transform2 { 
+    transform: scale(1);  
+}
+
+
+

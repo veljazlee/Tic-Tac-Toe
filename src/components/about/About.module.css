@@ -1,0 +1,36 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    height: 70rem;
+    width: 65rem;
+   /* background-color: rgba(13, 56, 59, 0.733);*/
+   background-color: rgba(8, 8, 8, 0.533);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(228, 224, 224);
+    
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    z-index:1;
+    
+   }
+
+  #aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 73rem;
+    width: 65rem;
+    align-self: flex-end;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    justify-content: space-evenly;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 1.6rem; 
+  cursor: default;
+  }
+
+  
+
+   
